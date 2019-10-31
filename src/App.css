@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    text-align: center;
+    color: #A9A9A9;
+    /* color: #AC895A; */
+    /* color: black; */
+    background-color: black;
+    /* background-color: whitesmoke; */
+    background: url(./images/Queensland_Australia.jpg);
+    background: cover;
+    /* width: 100; */
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+
+/*
+h3 {
+  text-align: left;
+  margin: 15px;
+}
+
+h4 {
+  text-align: left;
+  margin: 20px;
+}
+
+p {
+  text-align: left;
+  margin-left: 40px;
+
+} */
+
+hr {
+    display: block;
+    height: 1px;
+    /* border: 0; border-top: 5px solid #3f3e3e; */
+    /* border: 0; border-top: 5px solid #A48862; */
+    border: 0;
+    border-top: 5px solid #856D4D;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* .container {
+    padding: 0 1rem;
+} */
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    opacity: 0.6;
+    color: rgb(209, 206, 206);
+    font: bold;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #666;
+}
+
+#about{
+  margin: 25px;
+}
